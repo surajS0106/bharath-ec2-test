@@ -77,6 +77,12 @@ variable "instance_type" {
   default     = "t3.micro"
 }
 
+variable "name" {
+  description = "EC2 instance type."
+  type        = string
+  default     = "bharath"
+}
+
 variable "root_volume_size" {
   description = "Root EBS volume size in GiB."
   type        = number
